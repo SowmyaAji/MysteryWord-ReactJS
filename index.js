@@ -17,7 +17,7 @@ class App extends Component {
     {
       name: 'React',
       length: 0,
-      randomWord: randomWords(), 
+      randomWord: randomWords().toUpperCase(), 
       inputLetter: "", 
       guessedLetters: [],   
       guesses: "8",
@@ -25,12 +25,13 @@ class App extends Component {
   }
   
   inputHandler=(evt)=>{
-    let guess = evt.target.value
+    let inp = evt.target.value
+    let guess = inp.toUpperCase();
     if(guess !== "" && !this.state.randomWord.includes(guess)){
       this.setState({guesses: this.state.guesses -1})
     }
     this.setState({ 
-      guessedLetters: [...this.state.guessedLetters, evt.target.value],
+      guessedLetters: [...this.state.guessedLetters, guess],
       });
      
   }
