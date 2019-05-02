@@ -77,8 +77,9 @@ class App extends Component {
        />)});
    
     return (
-      <div>
-        <p>{this.state.randomWord}</p>
+      <div classname="Main">
+        <h1>Mystery Word!</h1>
+        <p>I have a {this.state.randomWord.length} letter word for you. Find out what it is in 8 guesses!</p>
         <p>{this.showWinner()}</p>
         <p>
           <input type="text" onChange={this.inputHandler} value={this.state.inputLetter} /></p>
