@@ -8,7 +8,7 @@ A project built with React JS, where you, the user,  have to guess a secret word
 
 "I have a 6 letter word for you. Find out what it is in 8 guesses!"
 
-------
+"- - - - - -"
 
 
 #Sample Input
@@ -25,12 +25,16 @@ _E___E
 Your guessed letters so far: E
 The number of guesses you still have: 8
 
+****
+
 If it is not there in the word:
 
-____
+"- - - - - -"
 
 Your guessed letters so far: E
 The number of guesses you still have: 7
+
+
 
 #Installation and running on server
 
