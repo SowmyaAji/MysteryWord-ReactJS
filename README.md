@@ -13,7 +13,7 @@ A project built with React JS, where you, the user,  have to guess a secret word
 
 #Sample Input
 
-An alphabet = "E"
+An alphabet = "E" OR "A"
 
 
 #Sample Output
@@ -22,18 +22,29 @@ If it is there in the word:
 
 _E___E
 
-Your guessed letters so far: E
+Your guessed letters so far: E, A
 The number of guesses you still have: 8
 
-"* * * * *"
 
-If it is not there in the word:
+
+If the guessed letter is NOT there in the word:
 
 "- - - - - -"
 
-Your guessed letters so far: E
+Your guessed letters so far: A
 The number of guesses you still have: 7
 
+
+If the number of guesses run out: 
+"Sorry you have run out of guesses! The word is DESIRE"
+
+Play Again!
+
+
+If you guess right within 8 tries: 
+You have won!
+
+Play Again!
 
 
 #Installation and running on server
