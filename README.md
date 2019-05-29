@@ -25,7 +25,7 @@ _E___E
 Your guessed letters so far: E
 The number of guesses you still have: 8
 
-****
+"* * * * *"
 
 If it is not there in the word:
 
